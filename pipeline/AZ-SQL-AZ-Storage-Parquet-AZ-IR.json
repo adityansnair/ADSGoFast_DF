@@ -45,7 +45,8 @@
 									"typeProperties": {
 										"source": {
 											"type": "AzureSqlSource",
-											"queryTimeout": "02:00:00"
+											"queryTimeout": "02:00:00",
+											"partitionOption": "None"
 										},
 										"sink": {
 											"type": "ParquetSink",
@@ -299,7 +300,8 @@
 									"typeProperties": {
 										"source": {
 											"type": "AzureSqlSource",
-											"queryTimeout": "02:00:00"
+											"queryTimeout": "02:00:00",
+											"partitionOption": "None"
 										},
 										"sink": {
 											"type": "ParquetSink",
@@ -634,7 +636,8 @@
 							"value": "@activity('AF Get Information Schema SQL').output.InformationSchemaSQL",
 							"type": "Expression"
 						},
-						"queryTimeout": "02:00:00"
+						"queryTimeout": "02:00:00",
+						"partitionOption": "None"
 					},
 					"dataset": {
 						"referenceName": "AzureSqlTable_AZ_IR",

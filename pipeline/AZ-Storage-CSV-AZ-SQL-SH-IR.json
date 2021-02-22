@@ -40,11 +40,11 @@
 											"type": "DelimitedTextSource",
 											"storeSettings": {
 												"type": "AzureBlobFSReadSettings",
-												"recursive": true,
 												"maxConcurrentConnections": {
 													"value": "@pipeline().parameters.TaskObject.Source.MaxConcorrentConnections",
 													"type": "Expression"
 												},
+												"recursive": true,
 												"wildcardFolderPath": {
 													"value": "@pipeline().parameters.TaskObject.Source.RelativePath",
 													"type": "Expression"
@@ -241,11 +241,11 @@
 											"type": "DelimitedTextSource",
 											"storeSettings": {
 												"type": "AzureBlobStorageReadSettings",
-												"recursive": true,
 												"maxConcurrentConnections": {
 													"value": "@pipeline().parameters.TaskObject.Source.MaxConcorrentConnections",
 													"type": "Expression"
 												},
+												"recursive": true,
 												"wildcardFolderPath": {
 													"value": "@pipeline().parameters.TaskObject.Source.RelativePath",
 													"type": "Expression"
