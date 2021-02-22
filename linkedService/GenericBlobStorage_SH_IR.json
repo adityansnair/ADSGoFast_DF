@@ -13,7 +13,7 @@
 		},
 		"annotations": [],
 		"connectVia": {
-			"referenceName": "SelfHostedIntegrationRuntime-Azure-VNET",
+			"referenceName": "SelfHostedIntegrationRuntime",
 			"type": "IntegrationRuntimeReference"
 		}
 	}
