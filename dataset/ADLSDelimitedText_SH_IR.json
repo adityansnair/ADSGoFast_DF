@@ -13,19 +13,24 @@
 		},
 		"parameters": {
 			"RelativePath": {
-				"type": "string"
+				"type": "string",
+				"defaultValue": "Dataset"
 			},
 			"FileName": {
-				"type": "string"
+				"type": "string",
+				"defaultValue": "marketing_data.csv"
 			},
 			"StorageAccountEndpoint": {
-				"type": "string"
+				"type": "string",
+				"defaultValue": "https://datalakestg4m6ghlanfmacs.dfs.core.windows.net/"
 			},
 			"StorageAccountContainerName": {
-				"type": "string"
+				"type": "string",
+				"defaultValue": "datalakelanding"
 			},
 			"FirstRownAsHeader": {
-				"type": "bool"
+				"type": "bool",
+				"defaultValue": true
 			}
 		},
 		"folder": {
