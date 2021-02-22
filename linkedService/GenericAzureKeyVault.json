@@ -1,17 +1,17 @@
 {
 	"name": "GenericAzureKeyVault",
-	"type": "Microsoft.DataFactory/factories/linkedservices",
 	"properties": {
-		"type": "AzureKeyVault",
 		"parameters": {
 			"KeyVaultBaseUrl": {
 				"type": "String",
 				"defaultValue": "https://adsgofastkeyvault.vault.azure.net/"
 			}
 		},
+		"annotations": [],
+		"type": "AzureKeyVault",
 		"typeProperties": {
 			"baseUrl": "@{linkedService().KeyVaultBaseUrl}"
-		},
-		"annotations": []
-	}
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/linkedservices"
 }
