@@ -16,7 +16,7 @@
 			"connectionString": "Integrated Security=False;Encrypt=True;Connection Timeout=30;Data Source=@{linkedService().Server};Initial Catalog=@{linkedService().Database}"
 		},
 		"connectVia": {
-			"referenceName": "SelfHostedIntegrationRuntime-Azure-VNET",
+			"referenceName": "SelfHostedIntegrationRuntime",
 			"type": "IntegrationRuntimeReference"
 		}
 	}
