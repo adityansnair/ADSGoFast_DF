@@ -13,16 +13,20 @@
 		},
 		"parameters": {
 			"RelativePath": {
-				"type": "string"
+				"type": "string",
+				"defaultValue": "Dataset"
 			},
 			"FileName": {
-				"type": "string"
+				"type": "string",
+				"defaultValue": "marketing_data.parquet"
 			},
 			"StorageAccountEndpoint": {
-				"type": "string"
+				"type": "string",
+				"defaultValue": "https://datalakestg4m6ghlanfmacs.dfs.core.windows.net/"
 			},
 			"StorageAccountContainerName": {
-				"type": "string"
+				"type": "string",
+				"defaultValue": "datalakelanding"
 			}
 		},
 		"folder": {
