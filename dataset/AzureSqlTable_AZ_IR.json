@@ -16,9 +16,6 @@
 			}
 		},
 		"parameters": {
-			"Schema": {
-				"type": "string"
-			},
 			"Table": {
 				"type": "string"
 			},
@@ -27,6 +24,9 @@
 			},
 			"Database": {
 				"type": "string"
+			},
+			"Schema": {
+				"type": "string"
 			}
 		},
 		"folder": {
@@ -34,17 +34,7 @@
 		},
 		"annotations": [],
 		"type": "AzureSqlTable",
-		"schema": [],
-		"typeProperties": {
-			"schema": {
-				"value": "@dataset().Schema",
-				"type": "Expression"
-			},
-			"table": {
-				"value": "@dataset().Table",
-				"type": "Expression"
-			}
-		}
+		"schema": []
 	},
 	"type": "Microsoft.DataFactory/factories/datasets"
 }
