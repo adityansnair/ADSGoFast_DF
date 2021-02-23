@@ -17,16 +17,20 @@
 		},
 		"parameters": {
 			"Table": {
-				"type": "string"
+				"type": "string",
+				"defaultValue": "TargetTable"
 			},
 			"Server": {
-				"type": "string"
+				"type": "string",
+				"defaultValue": "adsgofast-srv-4m6ghlanfmacs"
 			},
 			"Database": {
-				"type": "string"
+				"type": "string",
+				"defaultValue": "staging"
 			},
 			"Schema": {
-				"type": "string"
+				"type": "string",
+				"defaultValue": "dbo"
 			}
 		},
 		"folder": {
@@ -34,7 +38,17 @@
 		},
 		"annotations": [],
 		"type": "AzureSqlTable",
-		"schema": []
+		"schema": [],
+		"typeProperties": {
+			"schema": {
+				"value": "@dataset().Schema",
+				"type": "Expression"
+			},
+			"table": {
+				"value": "@dataset().Table",
+				"type": "Expression"
+			}
+		}
 	},
 	"type": "Microsoft.DataFactory/factories/datasets"
 }
