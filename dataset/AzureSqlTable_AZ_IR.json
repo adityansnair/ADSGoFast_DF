@@ -22,7 +22,7 @@
 			},
 			"Server": {
 				"type": "string",
-				"defaultValue": "adsgofast-srv-4m6ghlanfmacs"
+				"defaultValue": "adsgofast-srv-4m6ghlanfmacs.database.windows.net"
 			},
 			"Database": {
 				"type": "string",
