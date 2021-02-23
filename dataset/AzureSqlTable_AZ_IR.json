@@ -38,7 +38,123 @@
 		},
 		"annotations": [],
 		"type": "AzureSqlTable",
-		"schema": [],
+		"schema": [
+			{
+				"name": "ID",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "Year_Birth",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "Education",
+				"type": "varchar"
+			},
+			{
+				"name": "Marital_Status",
+				"type": "varchar"
+			},
+			{
+				"name": "Income",
+				"type": "varchar"
+			},
+			{
+				"name": "Kidhome",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "Teenhome",
+				"type": "varchar"
+			},
+			{
+				"name": "Dt_Customer",
+				"type": "varchar"
+			},
+			{
+				"name": "Recency",
+				"type": "varchar"
+			},
+			{
+				"name": "MntWines",
+				"type": "varchar"
+			},
+			{
+				"name": "MntFruits",
+				"type": "varchar"
+			},
+			{
+				"name": "MntMeatProducts",
+				"type": "varchar"
+			},
+			{
+				"name": "MntFishProducts",
+				"type": "varchar"
+			},
+			{
+				"name": "MntSweetProducts",
+				"type": "varchar"
+			},
+			{
+				"name": "MntGoldProds",
+				"type": "varchar"
+			},
+			{
+				"name": "NumDealsPurchases",
+				"type": "varchar"
+			},
+			{
+				"name": "NumWebPurchases",
+				"type": "varchar"
+			},
+			{
+				"name": "NumCatalogPurchases",
+				"type": "varchar"
+			},
+			{
+				"name": "NumStorePurchases",
+				"type": "varchar"
+			},
+			{
+				"name": "NumWebVisitsMonth",
+				"type": "varchar"
+			},
+			{
+				"name": "AcceptedCmp3",
+				"type": "varchar"
+			},
+			{
+				"name": "AcceptedCmp4",
+				"type": "varchar"
+			},
+			{
+				"name": "AcceptedCmp5",
+				"type": "varchar"
+			},
+			{
+				"name": "AcceptedCmp1",
+				"type": "varchar"
+			},
+			{
+				"name": "AcceptedCmp2",
+				"type": "varchar"
+			},
+			{
+				"name": "Response",
+				"type": "varchar"
+			},
+			{
+				"name": "Complain",
+				"type": "varchar"
+			},
+			{
+				"name": "Country",
+				"type": "varchar"
+			}
+		],
 		"typeProperties": {
 			"schema": {
 				"value": "@dataset().Schema",
