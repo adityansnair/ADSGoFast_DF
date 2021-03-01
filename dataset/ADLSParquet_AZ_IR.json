@@ -13,20 +13,16 @@
 		},
 		"parameters": {
 			"RelativePath": {
-				"type": "string",
-				"defaultValue": "Dataset"
+				"type": "string"
 			},
 			"FileName": {
-				"type": "string",
-				"defaultValue": "marketing_data.parquet"
+				"type": "string"
 			},
 			"StorageAccountEndpoint": {
-				"type": "string",
-				"defaultValue": "https://datalakestg4m6ghlanfmacs.dfs.core.windows.net/"
+				"type": "string"
 			},
 			"StorageAccountContainerName": {
-				"type": "string",
-				"defaultValue": "datalakelanding"
+				"type": "string"
 			}
 		},
 		"folder": {
@@ -52,120 +48,7 @@
 			},
 			"compressionCodec": "gzip"
 		},
-		"schema": [
-			{
-				"name": "ID",
-				"type": "INT64"
-			},
-			{
-				"name": "Year_Birth",
-				"type": "INT64"
-			},
-			{
-				"name": "Education",
-				"type": "UTF8"
-			},
-			{
-				"name": "Marital_Status",
-				"type": "UTF8"
-			},
-			{
-				"name": " Income ",
-				"type": "DOUBLE"
-			},
-			{
-				"name": "Kidhome",
-				"type": "INT64"
-			},
-			{
-				"name": "Teenhome",
-				"type": "INT64"
-			},
-			{
-				"name": "Dt_Customer",
-				"type": "UTF8"
-			},
-			{
-				"name": "Recency",
-				"type": "INT64"
-			},
-			{
-				"name": "MntWines",
-				"type": "INT64"
-			},
-			{
-				"name": "MntFruits",
-				"type": "INT64"
-			},
-			{
-				"name": "MntMeatProducts",
-				"type": "INT64"
-			},
-			{
-				"name": "MntFishProducts",
-				"type": "INT64"
-			},
-			{
-				"name": "MntSweetProducts",
-				"type": "INT64"
-			},
-			{
-				"name": "MntGoldProds",
-				"type": "INT64"
-			},
-			{
-				"name": "NumDealsPurchases",
-				"type": "INT64"
-			},
-			{
-				"name": "NumWebPurchases",
-				"type": "INT64"
-			},
-			{
-				"name": "NumCatalogPurchases",
-				"type": "INT64"
-			},
-			{
-				"name": "NumStorePurchases",
-				"type": "INT64"
-			},
-			{
-				"name": "NumWebVisitsMonth",
-				"type": "INT64"
-			},
-			{
-				"name": "AcceptedCmp3",
-				"type": "INT64"
-			},
-			{
-				"name": "AcceptedCmp4",
-				"type": "INT64"
-			},
-			{
-				"name": "AcceptedCmp5",
-				"type": "INT64"
-			},
-			{
-				"name": "AcceptedCmp1",
-				"type": "INT64"
-			},
-			{
-				"name": "AcceptedCmp2",
-				"type": "INT64"
-			},
-			{
-				"name": "Response",
-				"type": "INT64"
-			},
-			{
-				"name": "Complain",
-				"type": "INT64"
-			},
-			{
-				"name": "Country",
-				"type": "UTF8"
-			}
-		]
+		"schema": []
 	},
 	"type": "Microsoft.DataFactory/factories/datasets"
 }
